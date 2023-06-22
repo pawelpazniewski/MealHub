@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+}
+
+header {
+    min-height: 400px;
+    background: url('https://images.unsplash.com/photo-1576867757603-05b134ebc379?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-position: center;
+    background-size: cover;
+}
+
+.top-bar {
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    height: 3rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    
+}
+.bar-items {
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+
+.search {
+    display: flex;
+    border: 1px solid black;
+    
+    width: 30%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.search input {
+    width: 100%;
+    max-width: 70%;
+    margin-left: 10px;
+    padding:3px;
+    background: transparent;
+   
+}
+
+::placeholder {
+    color: aquamarine;
+}
+
+.search i {
+    margin-right: 10px;
+   
+    font-size: 1.2rem;
+}
+
+.fav-meal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    padding-bottom: 2.6rem;
+
+}
+
+.heading {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.fav-meal-container .fav-meal-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 70%;
+}
+.fav-meal-container .fav-meal-bar .fav-meal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fav-meal-container .fav-meal-bar .fav-meal img {
+width: 100px;
+border-radius: 50px;
+}
+
+.fav-meal-container .fav-meal-bar .fav-meal .meal-title {
+    margin-top: 10px;
+}
+
+.random-meal-container {
+    display: flex;
+    flex-direction: column;
+    padding-top:2.6rem;
+    align-items: center;
+    justify-content: center;
+    }
+
+.random-meal-container img {
+    width: 300px;
+    
+
+}
+
+.btn {
+    background-color: darkcyan;
+    color: blanchedalmond;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
